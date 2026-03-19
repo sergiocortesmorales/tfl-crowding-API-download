@@ -56,7 +56,7 @@ python summarise.py
 Produces three files:
 
 | Output | Description |
-|---|---|---|
+|---|---|
 | `tfl_crowding_daily.csv` | Mean / peak / min crowding per station per day of week |
 | `tfl_crowding_weekly_avg.csv` | Single crowding value per station (averaged across all days) |
 | `tfl_crowding_peak_hours.csv` | AM peak (07-09) and PM peak (17-19) crowding per station |
