@@ -55,11 +55,11 @@ python summarise.py
 
 Produces three files:
 
-| Output | Description | Use case |
+| Output | Description |
 |---|---|---|
-| `tfl_crowding_daily.csv` | Mean / peak / min crowding per station per day of week | Compare weekday vs weekend patterns |
-| `tfl_crowding_weekly_avg.csv` | Single crowding value per station (averaged across all days) | Spatial join with LSOA mortality data |
-| `tfl_crowding_peak_hours.csv` | AM peak (07-09) and PM peak (17-19) crowding per station | Commuter exposure analysis |
+| `tfl_crowding_daily.csv` | Mean / peak / min crowding per station per day of week |
+| `tfl_crowding_weekly_avg.csv` | Single crowding value per station (averaged across all days) |
+| `tfl_crowding_peak_hours.csv` | AM peak (07-09) and PM peak (17-19) crowding per station |
 
 All outputs include `lat`, `lon`, and `naptan_id` for spatial joining.
 
