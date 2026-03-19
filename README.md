@@ -1,8 +1,6 @@
 # TfL Crowding Data Download
 
-Automated download of historical crowding profiles for all **272 London Underground stations** from the [Transport for London Unified API](https://api.tfl.gov.uk/).
-
-This data is used as part of a spatial analysis exploring the relationship between Tube station characteristics and mortality patterns in London.
+Automated download of crowding profiles for **London Underground stations** from the [Transport for London Unified API](https://api.tfl.gov.uk/).
 
 ---
 
@@ -16,10 +14,10 @@ This is a **relative** measure, not an absolute passenger count. It implicitly a
 
 ## Scripts
 
-| Script | Description |
-|---|---|
+| Script | Description                                                                                          |
+|---|------------------------------------------------------------------------------------------------------|
 | `main.py` | Downloads 15-min crowding profiles for all LU stations, all 7 days. Outputs `tfl_crowding_data.csv`. |
-| `summarise.py` | Aggregates the raw data into daily, weekly, and peak-hour summaries for spatial analysis. |
+| `summarise.py` | Aggregates the raw data into daily, weekly, and peak-hour summaries for further analysis.            |
 
 ---
 
