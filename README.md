@@ -45,7 +45,7 @@ API_KEY = "your_key_here"
 python main.py
 ```
 
-This takes ~5 minutes and produces `tfl_crowding_data.csv` (~170,000+ rows).
+This may take some minutes. It produces `tfl_crowding_data.csv` (~170,000+ rows).
 
 **2. Summarise**
 
