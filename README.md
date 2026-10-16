@@ -45,7 +45,7 @@ API_KEY = "your_key_here"
 python main.py
 ```
 
-This may take some minutes. It produces `tfl_crowding_data.csv` (~170,000+ rows).
+This takes some minutes to run. It produces `tfl_crowding_data.csv` (~170,000+ rows).
 
 **2. Summarise**
 
@@ -86,4 +86,3 @@ All outputs include `lat`, `lon`, and `naptan_id` for spatial joining.
 
 - **API**: [TfL Unified API - Crowding endpoint](https://api.tfl.gov.uk/)
 - **Licence**: [TfL Open Data](https://tfl.gov.uk/corporate/terms-and-conditions/transport-data-service) (Open Government Licence)
-- **Baseline period**: July 2019 onwards
